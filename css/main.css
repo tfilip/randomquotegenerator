@@ -1,0 +1,127 @@
+a { text-decoration: none; color: black;}
+a:visited { text-decoration: none; color: black;}
+a:hover { text-decoration: none; color: black;}
+a:focus { text-decoration: none;  color: black;}
+a:hover, a:active { text-decoration: none;  color: black;}
+
+body{
+
+
+background: #00C9FF; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #00C9FF , #92FE9D); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #00C9FF , #92FE9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display:flex;justify-content:center;align-items:center;   
+}
+
+.box{
+  
+   position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  background-color: #9EEBA1;
+
+}
+
+
+
+#quote{
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    margin: 20px;
+}
+
+#author{
+    font-family: 'Sacramento', cursive;
+    font-size:20px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+#buttons{
+  text-align: center;
+  margin: 20px;
+}
+
+#generate{
+  padding-right: 10px;
+  
+}
+
+.shadow{
+ 
+  
+  border-radius:5px;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+
+.shadow:before, .shadow:after{
+  bottom:0;top:2px;left:15px;right:15px;
+  z-index:-1;
+  border-radius:100px/30px;
+ -webkit-box-shadow:0 0 30px 2px #479F41;
+  -moz-box-shadow:0 0 30px 2px #479F41;
+  box-shadow: 0 0 30px 2px #479F41;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 75px;
+}
+
+.twitter-share-button{
+  color: #4099FF;
+}
+
+.fa-pulse {
+	display: inline-block;
+	-moz-animation: pulse 2s infinite linear;
+	-o-animation: pulse 2s infinite linear;
+	-webkit-animation: pulse 2s infinite linear;
+	animation: pulse 2s infinite linear;
+}
+
+@media (max-width:740px){
+  h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
+} 
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  font-family: 'Poiret One', cursive;
+}
+
+@-webkit-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-o-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-ms-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
